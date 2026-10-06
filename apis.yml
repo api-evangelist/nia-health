@@ -51,7 +51,7 @@ x-enrichment:
   pass: local-v1
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Health
@@ -72,6 +72,8 @@ tags_raw:
 - Berlin
 apis: []
 common:
+- url: https://www.niahealth.ai/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/nia-health-domain-security.yml
 - type: Website
